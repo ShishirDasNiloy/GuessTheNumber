@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Guess The Number!</h2>
+        <h4>Guess a number between (1-1000)</h4>
+        <input type="number" placeholder="Input Number" id="numin"><br>
+        <button onclick="game()" id="guess" class="btn"><span>Guess</span></button>
+        <button onclick="reset()" id="reset" class="btn">Reset</button>
+        <p id="warning">❌</p>
+        <p id="attempt">🤪</p>
+    </div>
+</body>
+</html>
